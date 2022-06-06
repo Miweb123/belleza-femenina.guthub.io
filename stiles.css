@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+
+}
+.content_logo img{
+    width:100px;
+}
+.menu-list li{
+    list-style: none; 
+    display: inline-block;   
+    padding:5px 50px;
+    color:#000000;
+}
+.background-image{
+    background-image: url("../img/Imagen1.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content-transparent{
+    background-color:   rgba(209, 219, 189, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo h5{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400%;
+}
+.titulo_principal h5{
+    color: white;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.titulo_principal{
+  padding: 20px 20px;
+}
+.btn_hero a{
+    font-size: 18px;
+text-decoration: none;
+color: white;
+padding: 10px 50px;
+background-color: rgba(0,0,0,0.47);
+transition: all 0.3s ease-in-out;
+}
+.btn_hero{
+    margin-top: 25px;
+}
+.btn_hero a:hover{
+    background-color: black;
+}
+.background-color-banner{
+   background-color:#ffa995;
+   height: 270px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content_banner h5{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.content_banner{
+    width: 35%;
+}
+.content_banner p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#banner{
+    margin-top: 10px;
+}
+.details_information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information h5{
+    color:black;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+.information h4{
+    color: #0e96dd;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.information p{
+    color: #646464;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.information{
+    padding: 50px 50px;
+}
+.content_footer{
+    background-color: #ffa995;
+    height: 250px;
+}
+.footer_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0px;
+}
+.details h3{
+    color: white;
+    margin-bottom: 10px;
+}
+.details p{
+    color:white;
+}
+.copy{
+    background-color:  #ffa995;
+}
+.copy p{
+    color:black;
+    text-align: center ;
+}
